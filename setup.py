@@ -29,7 +29,7 @@ TEST_REQUIREMENTS = [
 if os.path.exists('README.md'):
     long_description = open('README.md').read()
 else:
-    long_description = 'MolPDF - A quick utility took for producing publication style PDFs'
+    long_description = 'Non-Covalent Molecular Interaction Rules'
 
 # exec
 # ----
@@ -58,6 +58,4 @@ setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
     ],
-    test_suite='tests',
-    tests_require=TEST_REQUIREMENTS,
 )
