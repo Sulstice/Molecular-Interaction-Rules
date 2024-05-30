@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 #
-# Lennard-Jones-Drill-2: Monomers
-# -------------------------------
+# Molecular Interation Rules: Knowledge Graph
+# -------------------------------------------
 
-class MolecularInteractionRules(object):
+class KnowledgeGraph(object):
 
     def __init__(self):
 
