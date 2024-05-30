@@ -1,6 +1,5 @@
-#
-# Lennard-Jones-Drill-2: Methoxyethene
-# ------------------------------------
+# Imports
+# -------
 
 import textwrap
 

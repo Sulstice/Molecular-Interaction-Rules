@@ -1,6 +1,5 @@
-#
-# Lennard-Jones-Drill-2: Propene
-# ------------------------------
+# Imports
+# -------
 
 import textwrap
 

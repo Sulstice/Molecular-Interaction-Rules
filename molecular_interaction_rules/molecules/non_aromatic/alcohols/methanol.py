@@ -1,7 +1,5 @@
-#!/usr/bin/env python3
-#
-# Lennard-Jones-Drill-2: Methanol
-# -------------------------------
+# Imports
+# -------
 
 import textwrap
 

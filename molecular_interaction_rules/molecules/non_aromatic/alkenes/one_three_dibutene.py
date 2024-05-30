@@ -1,6 +1,5 @@
-#
-# Lennard-Jones-Drill-2: One Three Dibutene
-# -----------------------------------------
+# Imports
+# -------
 
 import textwrap
 

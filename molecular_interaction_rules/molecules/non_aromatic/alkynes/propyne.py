@@ -1,8 +1,3 @@
-#!/usr/bin/env python3
-#
-# Lennard-Jones-Drill-2: Propyne
-# ------------------------------
-
 # Imports
 # -------
 

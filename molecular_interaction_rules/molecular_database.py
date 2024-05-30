@@ -17,6 +17,110 @@ if os.name == 'nt':
 
 # Molecules
 
+## Alcohol
+
+from molecular_interaction_rules.molecules.alcohols.methanol import Methanol
+
+## Alkanes
+
+from molecular_interaction_rules.molecules.alkanes.cyclobutane import Cyclobutane
+from molecular_interaction_rules.molecules.alkanes.cyclohexane import Cyclohexane
+from molecular_interaction_rules.molecules.alkanes.cyclopropane import Cyclopropane
+from molecular_interaction_rules.molecules.alkanes.neopentane import Neopentane
+from molecular_interaction_rules.molecules.alkanes.propane import Propane
+
+## Alkenes
+
+from molecular_interaction_rules.molecules.alkenes.cyclohexene import Cyclohexene
+from molecular_interaction_rules.molecules.alkenes.cyclopentene import Cyclopentene
+from molecular_interaction_rules.molecules.alkenes.methoxyethene import Methoxyethene
+from molecular_interaction_rules.molecules.alkenes.one_three_dibutene import OneThreeDibutene
+from molecular_interaction_rules.molecules.alkenes.propene import Propene
+from molecular_interaction_rules.molecules.alkenes.two_pyrroline import TwoPyrroline
+
+## Alkynes
+
+from molecular_interaction_rules.molecules.alkynes.propyne import Propyne
+
+## Amides
+
+from molecular_interaction_rules.molecules.amides.acetamide import Acetamide
+from molecular_interaction_rules.molecules.amides.amidinium import Amidinium
+from molecular_interaction_rules.molecules.amides.azetidinone import Azetidinone
+from molecular_interaction_rules.molecules.amides.dimethylformamide import Dimethylformamide
+from molecular_interaction_rules.molecules.amides.methylacetamide import MethylAcetamide
+from molecular_interaction_rules.molecules.amides.acetamide import Acetamide
+from molecular_interaction_rules.molecules.amides.methylacetamide import MethylAcetamide
+from molecular_interaction_rules.molecules.amides.prolineamide import Prolineamide
+from molecular_interaction_rules.molecules.amides.prolineamide_charged import ProlineamideCharged
+from molecular_interaction_rules.molecules.amides.two_pyrrolidinone import TwoPyrrolidinone
+
+## Amines
+
+from molecular_interaction_rules.molecules.amines.ammonia import Ammonia
+from molecular_interaction_rules.molecules.amines.dimethylamine import Dimethylamine
+from molecular_interaction_rules.molecules.amines.ethoxy_guanidine import EthoxyGuanidine
+from molecular_interaction_rules.molecules.amines.ethyl_ammonium import EthylAmmonium
+from molecular_interaction_rules.molecules.amines.hydrazine import Hydrazine
+from molecular_interaction_rules.molecules.amines.methylamine import Methylamine
+from molecular_interaction_rules.molecules.amines.piperidine import Piperidine
+from molecular_interaction_rules.molecules.amines.tetramethylammonium import Tetramethylammonium
+from molecular_interaction_rules.molecules.amines.trimethylamine import Trimethylamine
+from molecular_interaction_rules.molecules.amines.trimethylammonium import Trimethylammonium
+
+## Carbonyls
+
+from molecular_interaction_rules.molecules.carbonyls.acetaldehyde import Acetaldehyde
+from molecular_interaction_rules.molecules.carbonyls.acetate import Acetate
+from molecular_interaction_rules.molecules.carbonyls.acetic_acid import AceticAcid
+from molecular_interaction_rules.molecules.carbonyls.acetone import Acetone
+from molecular_interaction_rules.molecules.carbonyls.carbon_dioxide import CarbonDioxide
+from molecular_interaction_rules.molecules.carbonyls.formaldehyde import Formaldehyde
+from molecular_interaction_rules.molecules.carbonyls.methylacetate import MethylAcetate
+from molecular_interaction_rules.molecules.carbonyls.urea import Urea
+
+## Ethers
+
+from molecular_interaction_rules.molecules.ethers.dimethylether import Dimethylether
+from molecular_interaction_rules.molecules.ethers.epoxide import Epoxide
+from molecular_interaction_rules.molecules.ethers.oxetane import Oxetane
+from molecular_interaction_rules.molecules.ethers.tetrahydrofuran import Tetrahydrofuran
+from molecular_interaction_rules.molecules.ethers.tetrahydropyran import Tetrahydropyran
+
+## Halogens
+
+from molecular_interaction_rules.molecules.halogens.bromoethane import Bromoethane
+from molecular_interaction_rules.molecules.halogens.chloroethane import Chloroethane
+from molecular_interaction_rules.molecules.halogens.dibromoethane import Dibromoethane
+from molecular_interaction_rules.molecules.halogens.difluoroethane import Difluoroethane
+from molecular_interaction_rules.molecules.halogens.fluoroethane import Fluoroethane
+from molecular_interaction_rules.molecules.halogens.tribromoethane import Tribromoethane
+from molecular_interaction_rules.molecules.halogens.trichloroethane import Trichloroethane
+from molecular_interaction_rules.molecules.halogens.trifluoroethane import Trifluoroethane
+
+## Imines
+
+from molecular_interaction_rules.molecules.imines.ethenamine import Ethenamine
+
+## Nitriles
+
+from molecular_interaction_rules.molecules.nitriles.acetonitrile import Acetonitrile
+
+## Organophosphorous
+
+from molecular_interaction_rules.molecules.organophosphorous.dimethyl_phosphate import DimethylPhosphate
+from molecular_interaction_rules.molecules.organophosphorous.methyl_phosphate import MethylPhosphate
+
+## Organosulfur
+
+from molecular_interaction_rules.molecules.organosulfur.dimethyl_sulfone import DimethylSulfone
+from molecular_interaction_rules.molecules.organosulfur.dimethyl_sulfoxide import DimethylSulfoxide
+from molecular_interaction_rules.molecules.organosulfur.dimethyl_trithiocarbonate import DimethylTrithiocarbonate
+from molecular_interaction_rules.molecules.organosulfur.dimethyl_disulfide import DimethylDisulfide
+from molecular_interaction_rules.molecules.organosulfur.ethylsulfanyl_phosphonic_acid import EthylSulfanylPhosphonicAcid
+from molecular_interaction_rules.molecules.organosulfur.methane_thiol import MethaneThiol
+from molecular_interaction_rules.molecules.organosulfur.methyl_thiolate import MethylThiolate
+
 ## Aromatics
 
 from molecular_interaction_rules.molecules.aromatic.azulene import Azulene
@@ -56,7 +160,111 @@ class MoleculerDatabase(object):
     def build_molecular_database(self):
 
         molecules = [
+          
+            # Alcohols
+
+            Methanol,
+          
+            # Alkanes
+
+            Cyclobutane,
+            Cyclohexane,
+            Cyclopropane,
+            Neopentane,
+            Propane,
+          
+            # Alkenes
+
+            Cyclohexene,
+            Cyclopentene,
+            Methoxyethene,
+            OneThreeDibutene,
+            Propene,
+            TwoPyrroline,
+          
+            # Alkynes
+
+            Propyne,
             
+            # Amides
+
+            Acetamide,
+            Amidinium,
+            Azetidinone,
+            Dimethylformamide,
+            MethylAcetamide,
+            Acetamide,
+            MethylAcetamide,
+            Prolineamide,
+            ProlineamideCharged,
+            TwoPyrrolidinone,
+          
+            # Amines
+
+            Ammonia,
+            Dimethylamine,
+            EthoxyGuanidine,
+            EthylAmmonium,
+            Hydrazine,
+            Methylamine,
+            Piperidine,
+            Tetramethylammonium,
+            Trimethylamine,
+            Trimethylammonium,
+          
+            # Carbonyls
+
+            Acetaldehyde,
+            Acetate,
+            AceticAcid,
+            Acetone,
+            CarbonDioxide,
+            Formaldehyde,
+            MethylAcetate,
+            Urea,
+            
+            # Ethers
+
+            Dimethylether,
+            Epoxide,
+            Oxetane,
+            Tetrahydrofuran,
+            Tetrahydropyran,
+            
+            # Halogens
+
+            Bromoethane,
+            Chloroethane,
+            Dibromoethane,
+            Difluoroethane,
+            Fluoroethane,
+            Tribromoethane,
+            Trichloroethane,
+            Trifluoroethane,
+            
+            # Imines
+  
+            Ethenamine,
+            
+            # Nitriles
+  
+            Acetonitrile,
+            
+            # Organophosphorous
+  
+            DimethylPhosphate,
+            MethylPhosphate,
+            
+            # Organosulfur
+  
+            DimethylSulfone,
+            DimethylSulfoxide,
+            DimethylTrithiocarbonate,
+            DimethylDisulfide,
+            EthylSulfanylPhosphonicAcid,
+            MethaneThiol,
+            MethylThiolate,
+          
             # Aromatics
           
             Azulene,

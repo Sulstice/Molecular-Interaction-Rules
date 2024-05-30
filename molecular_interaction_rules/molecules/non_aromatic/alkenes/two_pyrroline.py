@@ -1,6 +1,5 @@
-#
-# Lennard-Jones-Drill-2: Two Pyrroline
-# ------------------------------------
+# Imports
+# -------
 
 import textwrap
 

@@ -1,6 +1,5 @@
-#
-# Lennard-Jones-Drill-2: Cyclohexene
-# ----------------------------------
+# Imports
+# -------
 
 import textwrap
 
