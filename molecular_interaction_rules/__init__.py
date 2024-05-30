@@ -1,0 +1,3 @@
+from molecular_interaction_rules.molecular_interaction_rules import MolecularInteractionRules
+
+name = 'MolecularInteractionRules'

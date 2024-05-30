@@ -34,9 +34,9 @@ else:
 # exec
 # ----
 setup(
-    name="Molecular Interaction Rules",
-    version="1.0.1",
-    packages=['molecular-interaction-rules'],
+    name="molecular_interaction_rules",
+    version="0.1",
+    packages=['molecular_interaction_rules'],
     license='GPL',
     author="Suliman Sharif",
     author_email="sharifsuliman1@gmail.com",
