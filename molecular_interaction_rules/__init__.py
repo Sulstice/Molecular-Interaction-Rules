@@ -1,3 +1,3 @@
-from molecular_interaction_rules.molecular_interaction_rules import KnowledgeGraph
+from molecular_interaction_rules.knowledge_graph import KnowledgeGraph
 
 name = 'MolecularInteractionRules'
