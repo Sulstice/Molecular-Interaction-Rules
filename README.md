@@ -1,4 +1,5 @@
-# Molecular Interaction Rules
+<h1 align="center">Molecular Interaction Rules</h1>
+
 
 ![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
 ![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
