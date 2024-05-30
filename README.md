@@ -14,12 +14,24 @@ QuickStart
 pip install molecular-interaction-rules 
 
 ```
-
-#### Get Monomer Coordinates
+### Get Atom Names
 
 ```python
 
-from molecular_interaction_rules import KnowledgeGraph
+from molecular_interaction_rules import MoleculerDatabase
+
+molecules = MoleculerDatabase()
+benzene_atom_names = molecules.get_atom_names('benzene')
+
+print(benzene_atom_names)
+
+```
+
+### Get Monomer Coordinates
+
+```python
+
+from molecular_interaction_rules import MoleculerDatabase
 
 ```
 
