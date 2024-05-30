@@ -113,7 +113,7 @@ H26  C26  1.0756 C25  120.0000 C21  180.0000
 0 1
 ```
 
-<h2 align="center">Molecules</h2>
+<h2 align="center">Moleculer Database</h2>
 
 
 | Functional Group Class | Molecules  |
