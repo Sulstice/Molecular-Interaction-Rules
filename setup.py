@@ -25,7 +25,7 @@ else:
 # ----
 setup(
     name="molecular_interaction_rules",
-    version="0.6",
+    version="0.6.1",
     packages=find_packages(),
     license='GPL',
     author="Suliman Sharif",

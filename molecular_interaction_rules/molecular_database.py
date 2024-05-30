@@ -97,7 +97,7 @@ class MoleculerDatabase(object):
                 print ('Missing Entry: %s | %s' % (name, atom_name))
                 return coordinates
 
-            return coordinates, molecule.resi_name, rank_order
+            return coordinates
 
     def form_dimer_coordinates(
       self,
@@ -113,14 +113,14 @@ class MoleculerDatabase(object):
 
       '''
 
-      monomer_a, resi_name_a, rank_order_a = self.get_monomer_coordinates(
+      monomer_a = self.get_monomer_coordinates(
         molecule_name_1,
         atom_name_1,
         xyz=False,
         verbose=True,
       )
 
-      monomer_b, resi_name_b, rank_order_b = self.get_monomer_coordinates(
+      monomer_b = self.get_monomer_coordinates(
         molecule_name_2,
         atom_name_2,
         monomer_b=True,
