@@ -116,16 +116,12 @@ class MoleculerDatabase(object):
       monomer_a = self.get_monomer_coordinates(
         molecule_name_1,
         atom_name_1,
-        xyz=False,
-        verbose=True,
       )
 
       monomer_b = self.get_monomer_coordinates(
         molecule_name_2,
         atom_name_2,
         monomer_b=True,
-        xyz=False,
-        verbose=True
       )
 
       # Fetch First 3 Atoms from Monomer A
