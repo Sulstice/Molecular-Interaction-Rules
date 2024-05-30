@@ -116,8 +116,26 @@ H26  C26  1.0756 C25  120.0000 C21  180.0000
 ![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
 ![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
 
-<h2 align="center">Contact</h2>
+<h2 align="center">Molecules</h2>
 
+
+| Functional Group Class | Molecules  |
+|-|-|
+| Aromatic      | Azulene, Benzene, Bipyrrole, Bromobenzene, Chlorobenzene, Cytosine, Fluorobenzene, Four Pyridinone, Furan, Imidazole, Imidazolium, Indole, Indolizine, Iodobenzene, Isoxazole, Methylene Oxide, Nitrobenzene, 1 Phenyl-4-Pyridinone, Phenol, Phenoxazine, Pyridine, Pyridinium, Pyrimidine, Pyrrolidine, Thiophene, 3-Aminopyridine, 2-H-Pyran, Uracil |    | Alcohols      | Methanol |  
+| Alkanes       | Cyclobutane, Cyclohexane, Cyclopropane, Neopentane, Propane |  
+| Alkenes       | Cyclohexene, Cyclopentene, Methoxyethene, 1,3-dibutene, Propene, 2-Pyrroline |  
+| Alkynes       | Propyne |  
+| Amides        | Acetamide, Amidinium, Azetidinone, DimethylFormamide, Methylacetamide, Prolineamide, 2-pyrrolidinone |  
+| Amines        | Ammonia, Dimethylamine, Ethyl Ammonium, Hydrazine, Methylamine, Piperidine, (Z)-N-methylethanimine, Tetramethylammonium, Trimethylamine, Triethylammonium |  
+| Carbonyls     | Acetaldehyde, Acetate, Acetic Acid, Acetone, Carbon Dioxide, Formaldehyde, Methylacetate, Urea |  
+| Ethers        | Dimethyl ether, Epoxide, Oxetane, Tetrahydrofuran, Tetrahydropyran |  
+| Imines        | Ethenamine |  
+| Halogens      | Bromoethane, Chloroethane, Dibromoethane, Dichloroethane, Fluoroethane, Difluoroethane, Tribromoethane, Trichloroethane, Trifluoroethane |  
+| Nitriles      | Acetonitrile |  
+| Organophosphorus      | Methyl Phosphate, Dimethyl Phosphate |  
+| Organosulfur      | Dimethyl sulfone, Dimethyl Sulfoxide, Dimethyl trithiocarbonate, Dimethyl Disulfide, Ethylsulfanyl Phosphonic Acid, Methanethiol, Methylthiolate |  
+
+<h2 align="center">Contact</h2>
 
 Lead Developer: Suliman Sharif
 Co-Authors: Anmol Kumar, Alexander D. MacKerell Jr.
