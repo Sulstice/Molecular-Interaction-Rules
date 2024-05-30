@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 #
-# Molecular Interation Rules: Molecules
-# -------------------------------------
+# Molecular Interation Rules: MoleculerDatabase
+# ---------------------------------------------
 
-class Molecules(object):
+class MoleculerDatabase(object):
 
     def __init__(self):
 
@@ -34,7 +34,7 @@ class Molecules(object):
 
     def get_aromatics(self):
 
-        from molecular_interaction_rules.aromatic import __all__
+        from molecular_interaction_rules.molecules.aromatic import __all__
 
         return __all__
 

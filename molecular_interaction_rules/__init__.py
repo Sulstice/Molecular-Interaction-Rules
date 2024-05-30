@@ -1,3 +1,3 @@
-from molecular_interaction_rules.molecules import Molecules
+from molecular_interaction_rules.molecular_database import MoleculerDatabase
 
 name = 'MolecularInteractionRules'
