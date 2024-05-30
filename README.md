@@ -33,11 +33,23 @@ print(benzene_atom_names)
 
 from molecular_interaction_rules import MoleculerDatabase
 
+molecules = MoleculerDatabase()
+benzene_monomer = molecules.get_monomer_coordinates('benzene', 'RC1')
+
+print (benzene_monomer)
+
 ```
 
 #### Get Dimer Coordinates 
 
 ```python
+
+from molecular_interaction_rules import MoleculerDatabase
+
+molecules = MoleculerDatabase()
+benzene_dimer = molecules.form_dimer_coordinates('benzene', 'RC1', 'benzene', 'RC1')
+
+print (benzene_dimer)
 
 ```
 
