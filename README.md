@@ -8,7 +8,6 @@ Welcome to the Non-Covalent Molecular Interaction Rule Database. Molecules are r
 
 <h2 align="center">Quickstart</h2>
 
-
 #### Install
 
 ```bash
@@ -16,7 +15,7 @@ Welcome to the Non-Covalent Molecular Interaction Rule Database. Molecules are r
 pip install molecular-interaction-rules 
 
 ```
-### Get Atom Names
+#### Get Atom Names
 
 ```python
 
@@ -35,7 +34,7 @@ Output:
 ['RC1', 'H1']
 ```
 
-### Get Monomer Coordinates
+#### Get Monomer Coordinates
 
 ```python
 
@@ -117,8 +116,8 @@ H26  C26  1.0756 C25  120.0000 C21  180.0000
 ![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
 ![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
 
-Contact
-=======
+<h2 align="center">Contact</h2>
+
 
 Lead Developer: Suliman Sharif
 Co-Authors: Anmol Kumar, Alexander D. MacKerell Jr.
