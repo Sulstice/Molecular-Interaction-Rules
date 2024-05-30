@@ -1,4 +1,6 @@
 <h1 align="center">Molecular Interaction Rules</h1>
+![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
+![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
 
 <p align="center">
 <img width="784" alt="Screenshot 2024-05-29 at 10 14 28 PM" src="https://github.com/mackerell-lab/Non-Covalent-Molecular-Interaction-Rules/assets/11812946/880e237a-f9a3-43d5-bb75-c7aeb756f28a">
@@ -112,9 +114,6 @@ H25  C25  1.0756 C24  120.0000 C23  180.0000
 H26  C26  1.0756 C25  120.0000 C21  180.0000
 0 1
 ```
-
-![Downloads](https://pepy.tech/badge/molecular-interaction-rules)
-![Repo Size](https://img.shields.io/github/repo-size/mackerell-lab/non-covalent-molecular-interaction-rules)
 
 <h2 align="center">Molecules</h2>
 
