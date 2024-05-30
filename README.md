@@ -32,4 +32,12 @@ from molecular_interaction_rules import KnowledgeGraph
 
 ```
 
+Contact
+=======
+
+© Copyright 2022 – University of Maryland, Baltimore All Rights Reserved
+
+Developers: Suliman Sharif, Anmol Kumar, Alexander D. MacKerell Jr.
+E-mail: sharifsuliman1@gmail.com, anmol@outerbanks.umaryland.edu, alex@outerbanks.umaryland.edu
+
 
