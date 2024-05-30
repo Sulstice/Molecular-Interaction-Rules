@@ -32,4 +32,11 @@ from molecular_interaction_rules import KnowledgeGraph
 
 ```
 
+Contact
+=======
+
+Lead Developer: Suliman Sharif
+Co-Authors: Anmol Kumar, Alexander D. MacKerell Jr.
+
+© Copyright 2024 – University of Maryland School of Pharmacy, Computer-Aided Drug Design Center All Rights Reserved
 
