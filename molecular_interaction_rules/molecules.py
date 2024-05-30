@@ -171,7 +171,26 @@ class Molecules(object):
 
         return ions[key]
 
+    def get_atom_names(self, monomer):
+        
+        ''' 
+        
+        Retrieve Atom Names of Molecule
+        
+        '''
+        
+        atom_names = []
 
+        for molecule in self.get_master_list():
+  
+            name = str(molecule.__name__).lower()
+    
+            if name == monomer:
+                molecule = molecule()
+                atom_names = list(molecule.get_monomer_a_species().keys())
+        
+        return atom_names
+          
     def get_monomer_coordinates(
       self,
       monomer,
@@ -183,7 +202,7 @@ class Molecules(object):
 
       '''
 
-      Get the Coordinates of a Monomer in Different Formats
+      Get the Coordinates of a Monomer
 
       '''
 
