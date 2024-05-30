@@ -6,8 +6,8 @@
 
 Welcome to the Non-Covalent Molecular Interaction Rule Database. Molecules are recorded in their internal coordinate system and quantum mechanically optimized with `mp2/aug-cc-pvdz` geometry with manual community edits as needed on visual inspection. Monomers and Dimers for NCIs can be formed readily to the user.  
 
-QuickStart
-==========
+<h2 align="center">Quickstart</h2>
+
 
 #### Install
 
