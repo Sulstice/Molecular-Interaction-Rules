@@ -35,9 +35,8 @@ from molecular_interaction_rules import KnowledgeGraph
 Contact
 =======
 
-© Copyright 2022 – University of Maryland, Baltimore All Rights Reserved
+Lead Developer: Suliman Sharif
+Co-Authors: Anmol Kumar, Alexander D. MacKerell Jr.
 
-Developers: Suliman Sharif, Anmol Kumar, Alexander D. MacKerell Jr.
-E-mail: sharifsuliman1@gmail.com, anmol@outerbanks.umaryland.edu, alex@outerbanks.umaryland.edu
-
+© Copyright 2024 – University of Maryland School of Pharmacy, Computer-Aided Drug Design Center All Rights Reserved
 
