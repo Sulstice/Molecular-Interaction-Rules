@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 #
-# Molecular Interation Rules: Knowledge Graph
-# -------------------------------------------
+# Molecular Interation Rules: Molecules
+# -------------------------------------
 
-class KnowledgeGraph(object):
+class Molecules(object):
 
     def __init__(self):
 
@@ -172,7 +172,7 @@ class KnowledgeGraph(object):
         return ions[key]
 
 
-    def get_monomer_coordinates(
+    def get_monomer(
       self,
       monomer,
       atom_name,
@@ -214,7 +214,7 @@ class KnowledgeGraph(object):
 
             return coordinates, molecule.resi_name, rank_order
 
-    def get_dimer_coordinates(
+    def form_dimer_coordinates(
       self,
       molecule_name_1,
       atom_name_1,
