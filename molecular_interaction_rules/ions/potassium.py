@@ -10,9 +10,6 @@ import textwrap
 
 class Potassium(object):
 
-    __CGENFF_ATOM_TYPES__ = {
-    }
-
     def __init__(self):
 
         pass

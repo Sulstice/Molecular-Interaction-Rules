@@ -3,6 +3,22 @@
 # Molecular Interation Rules: MoleculerDatabase
 # ---------------------------------------------
 
+# Imports
+# -------
+
+import os, sys
+
+# Reconfigurations
+# ----------------
+
+if os.name == 'nt':
+   sys.stdin.reconfigure(encoding='utf-8')
+   sys.stdout.reconfigure(encoding='utf-8')
+
+# Molecules
+
+## Aromatics
+
 from molecular_interaction_rules.molecules.aromatic.benzene import Benzene
 
 class MoleculerDatabase(object):
@@ -15,9 +31,8 @@ class MoleculerDatabase(object):
 
         molecules = [
 
-            # Aromatics
+            Benzene
 
-            Benzene()
         ]
 
         return molecules
@@ -32,7 +47,7 @@ class MoleculerDatabase(object):
 
         atom_names = []
 
-        for molecule in self.get_master_list():
+        for molecule in self.master_list:
 
             name = str(molecule.__name__).lower()
 
@@ -59,7 +74,7 @@ class MoleculerDatabase(object):
 
       coordinates = ''
 
-      for molecule in self.get_master_list():
+      for molecule in self.master_list:
 
         name = str(molecule.__name__).lower()
 
