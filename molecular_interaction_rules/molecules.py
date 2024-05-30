@@ -172,7 +172,7 @@ class Molecules(object):
         return ions[key]
 
 
-    def get_monomer(
+    def get_monomer_coordinates(
       self,
       monomer,
       atom_name,
